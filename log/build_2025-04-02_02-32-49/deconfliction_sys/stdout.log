@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/deconfliction_sys/deconfliction_sys.egg-info/PKG-INFO
+writing dependency_links to ../../build/deconfliction_sys/deconfliction_sys.egg-info/dependency_links.txt
+writing entry points to ../../build/deconfliction_sys/deconfliction_sys.egg-info/entry_points.txt
+writing requirements to ../../build/deconfliction_sys/deconfliction_sys.egg-info/requires.txt
+writing top-level names to ../../build/deconfliction_sys/deconfliction_sys.egg-info/top_level.txt
+reading manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+writing manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+running build
+running build_py
+copying deconfliction_sys/two_d_decon_sys.py -> /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys
+running install
+running install_lib
+copying /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys/two_d_decon_sys.py -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys
+byte-compiling /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys/two_d_decon_sys.py to two_d_decon_sys.cpython-310.pyc
+running install_data
+copying package.xml -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/deconfliction_sys
+running install_egg_info
+removing '/home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/deconfliction_sys/deconfliction_sys.egg-info to /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys-0.0.0-py3.10.egg-info
+running install_scripts
+Installing two_d_decon_sys script to /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/deconfliction_sys
+writing list of installed files to '/home/iam-aryang/deconfliction_ws/build/deconfliction_sys/install.log'

@@ -1,0 +1,24 @@
+[3.928s] Invoking command in '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys': PYTHONPATH=/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/build --no-deps install_data
+[5.212s] running develop
+[5.996s] running egg_info
+[5.996s] creating deconfliction_sys.egg-info
+[5.997s] writing deconfliction_sys.egg-info/PKG-INFO
+[5.998s] writing dependency_links to deconfliction_sys.egg-info/dependency_links.txt
+[5.998s] writing entry points to deconfliction_sys.egg-info/entry_points.txt
+[5.999s] writing requirements to deconfliction_sys.egg-info/requires.txt
+[5.999s] writing top-level names to deconfliction_sys.egg-info/top_level.txt
+[6.000s] writing manifest file 'deconfliction_sys.egg-info/SOURCES.txt'
+[6.008s] reading manifest file 'deconfliction_sys.egg-info/SOURCES.txt'
+[6.010s] writing manifest file 'deconfliction_sys.egg-info/SOURCES.txt'
+[6.016s] running build_ext
+[6.017s] Creating /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction-sys.egg-link (link to .)
+[6.019s] Installing two_d_decon_sys script to /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/deconfliction_sys
+[6.020s] 
+[6.021s] Installed /home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys
+[6.021s] running install_data
+[6.022s] creating /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/ament_index
+[6.022s] creating /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/ament_index/resource_index
+[6.022s] creating /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/ament_index/resource_index/packages
+[6.023s] copying resource/deconfliction_sys -> /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/ament_index/resource_index/packages
+[6.023s] copying package.xml -> /home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys
+[6.149s] Invoked command in '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys' returned '0': PYTHONPATH=/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/build --no-deps install_data

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/deconfliction_sys/deconfliction_sys.egg-info
+writing ../../build/deconfliction_sys/deconfliction_sys.egg-info/PKG-INFO
+writing dependency_links to ../../build/deconfliction_sys/deconfliction_sys.egg-info/dependency_links.txt
+writing entry points to ../../build/deconfliction_sys/deconfliction_sys.egg-info/entry_points.txt
+writing requirements to ../../build/deconfliction_sys/deconfliction_sys.egg-info/requires.txt
+writing top-level names to ../../build/deconfliction_sys/deconfliction_sys.egg-info/top_level.txt
+writing manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+reading manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+writing manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build
+creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib
+creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys
+copying deconfliction_sys/__init__.py -> /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys
+running install
+running install_lib
+creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys
+copying /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys/__init__.py -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys
+byte-compiling /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index
+creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index
+creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index/packages
+copying resource/deconfliction_sys -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index/packages
+copying package.xml -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/deconfliction_sys
+running install_egg_info
+Copying ../../build/deconfliction_sys/deconfliction_sys.egg-info to /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/iam-aryang/deconfliction_ws/build/deconfliction_sys/install.log'

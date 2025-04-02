@@ -1,0 +1,6 @@
+source;share/deconfliction_sys/hook/pythonpath.ps1
+source;share/deconfliction_sys/hook/pythonpath.dsv
+source;share/deconfliction_sys/hook/pythonpath.sh
+source;share/deconfliction_sys/hook/ament_prefix_path.ps1
+source;share/deconfliction_sys/hook/ament_prefix_path.dsv
+source;share/deconfliction_sys/hook/ament_prefix_path.sh

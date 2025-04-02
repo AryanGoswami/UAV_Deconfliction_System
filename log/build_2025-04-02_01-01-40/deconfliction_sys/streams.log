@@ -1,0 +1,33 @@
+[3.433s] Invoking command in '/home/iam-aryang/deconfliction_ws/src/deconfliction_sys': PYTHONPATH=/home/iam-aryang/deconfliction_ws/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deconfliction_sys build --build-base /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build install --record /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/install.log --single-version-externally-managed
+[4.616s] running egg_info
+[4.618s] creating ../../build/deconfliction_sys/deconfliction_sys.egg-info
+[4.619s] writing ../../build/deconfliction_sys/deconfliction_sys.egg-info/PKG-INFO
+[4.620s] writing dependency_links to ../../build/deconfliction_sys/deconfliction_sys.egg-info/dependency_links.txt
+[4.621s] writing entry points to ../../build/deconfliction_sys/deconfliction_sys.egg-info/entry_points.txt
+[4.621s] writing requirements to ../../build/deconfliction_sys/deconfliction_sys.egg-info/requires.txt
+[4.622s] writing top-level names to ../../build/deconfliction_sys/deconfliction_sys.egg-info/top_level.txt
+[4.622s] writing manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+[4.631s] reading manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+[4.634s] writing manifest file '../../build/deconfliction_sys/deconfliction_sys.egg-info/SOURCES.txt'
+[4.635s] running build
+[4.637s] running build_py
+[4.637s] creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build
+[4.637s] creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib
+[4.638s] creating /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys
+[4.638s] copying deconfliction_sys/__init__.py -> /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys
+[4.638s] running install
+[4.639s] running install_lib
+[4.642s] creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys
+[4.642s] copying /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build/lib/deconfliction_sys/__init__.py -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys
+[4.644s] byte-compiling /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys/__init__.py to __init__.cpython-310.pyc
+[4.645s] running install_data
+[4.647s] creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index
+[4.647s] creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index
+[4.648s] creating /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index/packages
+[4.648s] copying resource/deconfliction_sys -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/ament_index/resource_index/packages
+[4.649s] copying package.xml -> /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/share/deconfliction_sys
+[4.649s] running install_egg_info
+[4.656s] Copying ../../build/deconfliction_sys/deconfliction_sys.egg-info to /home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages/deconfliction_sys-0.0.0-py3.10.egg-info
+[4.660s] running install_scripts
+[4.739s] writing list of installed files to '/home/iam-aryang/deconfliction_ws/build/deconfliction_sys/install.log'
+[4.829s] Invoked command in '/home/iam-aryang/deconfliction_ws/src/deconfliction_sys' returned '0': PYTHONPATH=/home/iam-aryang/deconfliction_ws/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deconfliction_sys build --build-base /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/build install --record /home/iam-aryang/deconfliction_ws/build/deconfliction_sys/install.log --single-version-externally-managed

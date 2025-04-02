@@ -1,0 +1,119 @@
+[6.720s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[6.720s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1e86581540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1e86581240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1e86581240>>)
+[6.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.926s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/iam-aryang/deconfliction_ws/src'
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.966s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extensions ['ignore', 'ignore_ament_install']
+[6.966s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extension 'ignore'
+[6.966s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extension 'ignore_ament_install'
+[6.966s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extensions ['colcon_pkg']
+[6.966s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extension 'colcon_pkg'
+[6.967s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extensions ['colcon_meta']
+[6.967s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extension 'colcon_meta'
+[6.967s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extensions ['ros']
+[6.967s] Level 1:colcon.colcon_core.package_identification:_identify(deconfliction_sys) by extension 'ros'
+[6.974s] DEBUG:colcon.colcon_core.package_identification:Package 'deconfliction_sys' with type 'ros.ament_python' and name 'deconfliction_sys'
+[6.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.975s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/iam-aryang/deconfliction_ws/install
+[7.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/iam-aryang/ros2_tutorial/install
+[7.646s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/iam-aryang/ros2_ws/install
+[7.700s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[7.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_args' from command line to 'None'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_target' from command line to 'None'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_clean_cache' from command line to 'False'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_clean_first' from command line to 'False'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'cmake_force_configure' from command line to 'False'
+[8.028s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'ament_cmake_args' from command line to 'None'
+[8.029s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'catkin_cmake_args' from command line to 'None'
+[8.029s] Level 5:colcon.colcon_core.verb:set package 'deconfliction_sys' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.029s] DEBUG:colcon.colcon_core.verb:Building package 'deconfliction_sys' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys', 'merge_install': False, 'path': '/home/iam-aryang/deconfliction_ws/src/deconfliction_sys', 'symlink_install': True, 'test_result_base': None}
+[8.076s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.126s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/iam-aryang/deconfliction_ws/src/deconfliction_sys' with build type 'ament_python'
+[8.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('deconfliction_sys', 'ament_prefix_path')
+[8.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/ament_prefix_path.ps1'
+[8.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/ament_prefix_path.dsv'
+[8.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/ament_prefix_path.sh'
+[8.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.661s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/iam-aryang/deconfliction_ws/src/deconfliction_sys'
+[9.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys': PYTHONPATH=/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/build --no-deps install_data
+[14.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('deconfliction_sys', 'pythonpath_develop')
+[14.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys' returned '0': PYTHONPATH=/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/prefix_override:/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/build --no-deps install_data
+[14.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.ps1'
+[14.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.dsv'
+[14.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.sh'
+[14.488s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys' for CMake module files
+[14.490s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys' for CMake config files
+[14.492s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib'
+[14.493s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/bin'
+[14.493s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/pkgconfig/deconfliction_sys.pc'
+[14.494s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/lib/python3.10/site-packages'
+[14.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('deconfliction_sys', 'pythonpath')
+[14.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/pythonpath.ps1'
+[14.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/pythonpath.dsv'
+[14.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/hook/pythonpath.sh'
+[14.572s] Level 1:colcon.colcon_core.environment:checking '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/bin'
+[14.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deconfliction_sys)
+[14.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/package.ps1'
+[14.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/package.dsv'
+[14.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/package.sh'
+[14.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/package.bash'
+[14.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/deconfliction_sys/package.zsh'
+[14.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iam-aryang/deconfliction_ws/src/install/deconfliction_sys/share/colcon-core/packages/deconfliction_sys)
+[14.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.678s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.783s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.859s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam-aryang/deconfliction_ws/src/install/local_setup.ps1'
+[14.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iam-aryang/deconfliction_ws/src/install/_local_setup_util_ps1.py'
+[14.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam-aryang/deconfliction_ws/src/install/setup.ps1'
+[15.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam-aryang/deconfliction_ws/src/install/local_setup.sh'
+[15.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iam-aryang/deconfliction_ws/src/install/_local_setup_util_sh.py'
+[15.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam-aryang/deconfliction_ws/src/install/setup.sh'
+[15.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam-aryang/deconfliction_ws/src/install/local_setup.bash'
+[15.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam-aryang/deconfliction_ws/src/install/setup.bash'
+[15.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam-aryang/deconfliction_ws/src/install/local_setup.zsh'
+[15.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam-aryang/deconfliction_ws/src/install/setup.zsh'

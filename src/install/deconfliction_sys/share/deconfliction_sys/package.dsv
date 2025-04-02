@@ -1,0 +1,9 @@
+source;share/deconfliction_sys/hook/pythonpath.ps1
+source;share/deconfliction_sys/hook/pythonpath.dsv
+source;share/deconfliction_sys/hook/pythonpath.sh
+source;share/deconfliction_sys/hook/ament_prefix_path.ps1
+source;share/deconfliction_sys/hook/ament_prefix_path.dsv
+source;share/deconfliction_sys/hook/ament_prefix_path.sh
+source;../../build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.ps1
+source;../../build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.dsv
+source;../../build/deconfliction_sys/share/deconfliction_sys/hook/pythonpath_develop.sh

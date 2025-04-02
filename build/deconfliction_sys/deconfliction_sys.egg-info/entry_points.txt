@@ -1,0 +1,3 @@
+[console_scripts]
+two_d_decon_sys = deconfliction_sys.two_d_decon_sys:main
+
